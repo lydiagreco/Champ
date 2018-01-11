@@ -7,12 +7,11 @@ html {
   font-family: sans-serif; /* 1 */
   -webkit-text-size-adjust: 100%; /* 3 */ 
   -ms-text-size-adjust: 100%; /* 3 */
+
 }
 
-/* Sections ========================================================================== */
-/** Remove the margin in all browsers (opinionated). */
 body {
-  margin: 0;
+  margin: 40px;
 }
 
 /** Add the correct display in IE 9-. */
@@ -531,6 +530,8 @@ dl dd {
   border-bottom: .05rem solid #e7e9ed;
   padding: .6rem .4rem;
 }
+
+
 
 .table th {
   border-bottom-width: .1rem;
@@ -1917,6 +1918,7 @@ video.video-responsive::before {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 30px;
 }
 
 .navbar .navbar-section {
@@ -2540,6 +2542,7 @@ summary.accordion-header::-webkit-details-marker {
   flex-direction: column;
   list-style: none;
   margin: .2rem 0;
+  width: 100%;
 }
 
 .nav .nav-item a {
